@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
@@ -41,6 +42,7 @@
             this.aboutButton = new Guna.UI2.WinForms.Guna2Button();
             this.helpButton = new Guna.UI2.WinForms.Guna2Button();
             this.developerButton = new Guna.UI2.WinForms.Guna2Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,6 +100,7 @@
             this.processReaderLabel.Size = new System.Drawing.Size(146, 14);
             this.processReaderLabel.TabIndex = 0;
             this.processReaderLabel.Text = "Processes reader .....";
+            this.processReaderLabel.Visible = false;
             // 
             // gunaPictureBox1
             // 
@@ -121,7 +124,7 @@
             this.progressBar.ProgressMinColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(186)))), ((int)(((byte)(133)))));
             this.progressBar.Size = new System.Drawing.Size(410, 4);
             this.progressBar.TabIndex = 2;
-            this.progressBar.Value = 65;
+            this.progressBar.Visible = false;
             // 
             // startButton
             // 
@@ -129,7 +132,7 @@
             this.startButton.CheckedState.Parent = this.startButton;
             this.startButton.CustomImages.Parent = this.startButton;
             this.startButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(58)))), ((int)(((byte)(119)))));
-            this.startButton.Font = new System.Drawing.Font("Metropolis", 11F);
+            this.startButton.Font = new System.Drawing.Font("Metropolis", 12F);
             this.startButton.ForeColor = System.Drawing.Color.White;
             this.startButton.HoverState.Parent = this.startButton;
             this.startButton.Location = new System.Drawing.Point(118, 514);
@@ -146,7 +149,7 @@
             this.quitButton.CheckedState.Parent = this.quitButton;
             this.quitButton.CustomImages.Parent = this.quitButton;
             this.quitButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(92)))), ((int)(((byte)(246)))));
-            this.quitButton.Font = new System.Drawing.Font("Metropolis", 11F);
+            this.quitButton.Font = new System.Drawing.Font("Metropolis", 12F);
             this.quitButton.ForeColor = System.Drawing.Color.White;
             this.quitButton.HoverState.Parent = this.quitButton;
             this.quitButton.Location = new System.Drawing.Point(288, 514);
@@ -205,6 +208,10 @@
             this.developerButton.TabIndex = 4;
             this.developerButton.Text = "Developer";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -246,6 +253,7 @@
         private Guna.UI2.WinForms.Guna2Button aboutButton;
         private Guna.UI2.WinForms.Guna2Button helpButton;
         private Guna.UI2.WinForms.Guna2Button developerButton;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
