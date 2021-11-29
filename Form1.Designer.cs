@@ -50,7 +50,7 @@
             // 
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.Font = new System.Drawing.Font("Metropolis Extra Bold", 52F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel1.Location = new System.Drawing.Point(106, 153);
+            this.gunaLabel1.Location = new System.Drawing.Point(106, 134);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(419, 140);
             this.gunaLabel1.TabIndex = 0;
@@ -61,7 +61,7 @@
             this.gunaLabel2.AutoSize = true;
             this.gunaLabel2.Font = new System.Drawing.Font("Metropolis", 13F);
             this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.gunaLabel2.Location = new System.Drawing.Point(115, 329);
+            this.gunaLabel2.Location = new System.Drawing.Point(115, 310);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(462, 36);
             this.gunaLabel2.TabIndex = 0;
@@ -95,7 +95,7 @@
             this.processReaderLabel.AutoSize = true;
             this.processReaderLabel.Font = new System.Drawing.Font("Metropolis", 10F);
             this.processReaderLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.processReaderLabel.Location = new System.Drawing.Point(115, 442);
+            this.processReaderLabel.Location = new System.Drawing.Point(115, 423);
             this.processReaderLabel.Name = "processReaderLabel";
             this.processReaderLabel.Size = new System.Drawing.Size(146, 14);
             this.processReaderLabel.TabIndex = 0;
@@ -118,7 +118,7 @@
             this.progressBar.BorderColor = System.Drawing.Color.Black;
             this.progressBar.ColorStyle = Guna.UI.WinForms.ColorStyle.Default;
             this.progressBar.IdleColor = System.Drawing.Color.Gainsboro;
-            this.progressBar.Location = new System.Drawing.Point(118, 467);
+            this.progressBar.Location = new System.Drawing.Point(118, 448);
             this.progressBar.Name = "progressBar";
             this.progressBar.ProgressMaxColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(186)))), ((int)(((byte)(133)))));
             this.progressBar.ProgressMinColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(186)))), ((int)(((byte)(133)))));
@@ -135,7 +135,7 @@
             this.startButton.Font = new System.Drawing.Font("Metropolis", 12F);
             this.startButton.ForeColor = System.Drawing.Color.White;
             this.startButton.HoverState.Parent = this.startButton;
-            this.startButton.Location = new System.Drawing.Point(118, 514);
+            this.startButton.Location = new System.Drawing.Point(118, 495);
             this.startButton.Name = "startButton";
             this.startButton.ShadowDecoration.Parent = this.startButton;
             this.startButton.Size = new System.Drawing.Size(140, 42);
@@ -152,7 +152,7 @@
             this.quitButton.Font = new System.Drawing.Font("Metropolis", 12F);
             this.quitButton.ForeColor = System.Drawing.Color.White;
             this.quitButton.HoverState.Parent = this.quitButton;
-            this.quitButton.Location = new System.Drawing.Point(288, 514);
+            this.quitButton.Location = new System.Drawing.Point(288, 495);
             this.quitButton.Name = "quitButton";
             this.quitButton.ShadowDecoration.Parent = this.quitButton;
             this.quitButton.Size = new System.Drawing.Size(140, 42);
@@ -169,7 +169,7 @@
             this.aboutButton.Font = new System.Drawing.Font("Metropolis", 11F);
             this.aboutButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.aboutButton.HoverState.Parent = this.aboutButton;
-            this.aboutButton.Location = new System.Drawing.Point(118, 668);
+            this.aboutButton.Location = new System.Drawing.Point(118, 632);
             this.aboutButton.Name = "aboutButton";
             this.aboutButton.ShadowDecoration.Parent = this.aboutButton;
             this.aboutButton.Size = new System.Drawing.Size(115, 40);
@@ -185,7 +185,7 @@
             this.helpButton.Font = new System.Drawing.Font("Metropolis", 11F);
             this.helpButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.helpButton.HoverState.Parent = this.helpButton;
-            this.helpButton.Location = new System.Drawing.Point(243, 668);
+            this.helpButton.Location = new System.Drawing.Point(243, 632);
             this.helpButton.Name = "helpButton";
             this.helpButton.ShadowDecoration.Parent = this.helpButton;
             this.helpButton.Size = new System.Drawing.Size(115, 40);
@@ -201,7 +201,7 @@
             this.developerButton.Font = new System.Drawing.Font("Metropolis", 11F);
             this.developerButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.developerButton.HoverState.Parent = this.developerButton;
-            this.developerButton.Location = new System.Drawing.Point(368, 668);
+            this.developerButton.Location = new System.Drawing.Point(368, 632);
             this.developerButton.Name = "developerButton";
             this.developerButton.ShadowDecoration.Parent = this.developerButton;
             this.developerButton.Size = new System.Drawing.Size(115, 40);
@@ -216,7 +216,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1247, 761);
+            this.ClientSize = new System.Drawing.Size(1248, 705);
             this.Controls.Add(this.developerButton);
             this.Controls.Add(this.helpButton);
             this.Controls.Add(this.aboutButton);
