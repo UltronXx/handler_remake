@@ -73,7 +73,7 @@
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.Font = new System.Drawing.Font("Metropolis", 15F, System.Drawing.FontStyle.Bold);
             this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.gunaLabel3.Location = new System.Drawing.Point(815, 671);
+            this.gunaLabel3.Location = new System.Drawing.Point(904, 612);
             this.gunaLabel3.Name = "gunaLabel3";
             this.gunaLabel3.Size = new System.Drawing.Size(86, 20);
             this.gunaLabel3.TabIndex = 0;
@@ -84,7 +84,7 @@
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.Font = new System.Drawing.Font("Metropolis", 10F);
             this.gunaLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.gunaLabel4.Location = new System.Drawing.Point(911, 674);
+            this.gunaLabel4.Location = new System.Drawing.Point(882, 640);
             this.gunaLabel4.Name = "gunaLabel4";
             this.gunaLabel4.Size = new System.Drawing.Size(136, 14);
             this.gunaLabel4.TabIndex = 0;
@@ -106,7 +106,7 @@
             // 
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
             this.gunaPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("gunaPictureBox1.Image")));
-            this.gunaPictureBox1.Location = new System.Drawing.Point(694, 99);
+            this.gunaPictureBox1.Location = new System.Drawing.Point(718, 99);
             this.gunaPictureBox1.Name = "gunaPictureBox1";
             this.gunaPictureBox1.Size = new System.Drawing.Size(458, 448);
             this.gunaPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
