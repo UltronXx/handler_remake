@@ -141,6 +141,9 @@ namespace HMS
             {
                 MessageBox.Show("Access granted", "Handler DB", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 accessTokenTextBox.Text = "";
+
+                Form3 addDeviceForm = new Form3();
+                addDeviceForm.ShowDialog();
             }
             else
             {

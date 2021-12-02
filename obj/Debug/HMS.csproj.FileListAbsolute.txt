@@ -13,3 +13,4 @@ C:\Users\Ultron\Source\Repos\handler_remake\obj\Debug\HMS.csproj.CopyComplete
 C:\Users\Ultron\Source\Repos\handler_remake\obj\Debug\HMS.exe
 C:\Users\Ultron\Source\Repos\handler_remake\obj\Debug\HMS.pdb
 C:\Users\Ultron\Source\Repos\handler_remake\obj\Debug\HMS.Form2.resources
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Debug\HMS.Form3.resources
