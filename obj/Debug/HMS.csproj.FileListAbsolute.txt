@@ -1,8 +1,6 @@
 C:\Users\Ultron\Source\Repos\handler_remake\bin\Debug\HMS.exe.config
 C:\Users\Ultron\Source\Repos\handler_remake\bin\Debug\HMS.exe
 C:\Users\Ultron\Source\Repos\handler_remake\bin\Debug\HMS.pdb
-C:\Users\Ultron\Source\Repos\handler_remake\bin\Debug\Guna.UI.dll
-C:\Users\Ultron\Source\Repos\handler_remake\bin\Debug\Guna.UI2.dll
 C:\Users\Ultron\Source\Repos\handler_remake\obj\Debug\HMS.csproj.AssemblyReference.cache
 C:\Users\Ultron\Source\Repos\handler_remake\obj\Debug\HMS.csproj.SuggestedBindingRedirects.cache
 C:\Users\Ultron\Source\Repos\handler_remake\obj\Debug\HMS.Form1.resources
