@@ -33,16 +33,16 @@
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.signInButton = new Guna.UI2.WinForms.Guna2Button();
-            this.usernameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.passwordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
+            this.confirmButton = new Guna.UI2.WinForms.Guna2Button();
+            this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
             this.accessTokenTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
-            this.confirmButton = new Guna.UI2.WinForms.Guna2Button();
+            this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
+            this.passwordTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.usernameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.signInButton = new Guna.UI2.WinForms.Guna2Button();
+            this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -61,22 +61,22 @@
             // gunaLabel4
             // 
             this.gunaLabel4.AutoSize = true;
-            this.gunaLabel4.Font = new System.Drawing.Font("Metropolis", 10F);
+            this.gunaLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.gunaLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.gunaLabel4.Location = new System.Drawing.Point(882, 640);
             this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(136, 14);
+            this.gunaLabel4.Size = new System.Drawing.Size(133, 17);
             this.gunaLabel4.TabIndex = 2;
             this.gunaLabel4.Text = "Beta Version 20.2.1";
             // 
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Metropolis", 15F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold);
             this.gunaLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
             this.gunaLabel3.Location = new System.Drawing.Point(904, 612);
             this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(86, 20);
+            this.gunaLabel3.Size = new System.Drawing.Size(87, 25);
             this.gunaLabel3.TabIndex = 3;
             this.gunaLabel3.Text = "Handler";
             // 
@@ -99,119 +99,48 @@
             this.gunaShadowPanel1.Radius = 10;
             this.gunaShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.gunaShadowPanel1.ShadowStyle = Guna.UI.WinForms.ShadowMode.Dropped;
-            this.gunaShadowPanel1.Size = new System.Drawing.Size(336, 582);
+            this.gunaShadowPanel1.Size = new System.Drawing.Size(373, 582);
             this.gunaShadowPanel1.TabIndex = 5;
             // 
-            // gunaLabel1
+            // confirmButton
             // 
-            this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Metropolis Extra Bold", 38F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel1.Location = new System.Drawing.Point(69, 36);
-            this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(197, 51);
-            this.gunaLabel1.TabIndex = 1;
-            this.gunaLabel1.Text = "Sign In";
-            this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.confirmButton.BorderRadius = 12;
+            this.confirmButton.CheckedState.Parent = this.confirmButton;
+            this.confirmButton.CustomImages.Parent = this.confirmButton;
+            this.confirmButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(186)))), ((int)(((byte)(133)))));
+            this.confirmButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.confirmButton.ForeColor = System.Drawing.Color.White;
+            this.confirmButton.HoverState.Parent = this.confirmButton;
+            this.confirmButton.Location = new System.Drawing.Point(53, 500);
+            this.confirmButton.Name = "confirmButton";
+            this.confirmButton.ShadowDecoration.Parent = this.confirmButton;
+            this.confirmButton.Size = new System.Drawing.Size(264, 45);
+            this.confirmButton.TabIndex = 6;
+            this.confirmButton.Text = "Confirm";
+            this.confirmButton.Visible = false;
+            this.confirmButton.Click += new System.EventHandler(this.confirmButton_Click);
             // 
-            // signInButton
+            // gunaLabel7
             // 
-            this.signInButton.BorderRadius = 12;
-            this.signInButton.CheckedState.Parent = this.signInButton;
-            this.signInButton.CustomImages.Parent = this.signInButton;
-            this.signInButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(186)))), ((int)(((byte)(133)))));
-            this.signInButton.Font = new System.Drawing.Font("Metropolis", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signInButton.ForeColor = System.Drawing.Color.White;
-            this.signInButton.HoverState.Parent = this.signInButton;
-            this.signInButton.Location = new System.Drawing.Point(35, 500);
-            this.signInButton.Name = "signInButton";
-            this.signInButton.ShadowDecoration.Parent = this.signInButton;
-            this.signInButton.Size = new System.Drawing.Size(264, 45);
-            this.signInButton.TabIndex = 2;
-            this.signInButton.Text = "Go";
-            this.signInButton.Click += new System.EventHandler(this.signInButton_Click);
-            // 
-            // usernameTextBox
-            // 
-            this.usernameTextBox.BorderRadius = 12;
-            this.usernameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.usernameTextBox.DefaultText = "";
-            this.usernameTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.usernameTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.usernameTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.usernameTextBox.DisabledState.Parent = this.usernameTextBox;
-            this.usernameTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.usernameTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.usernameTextBox.FocusedState.Parent = this.usernameTextBox;
-            this.usernameTextBox.Font = new System.Drawing.Font("Metropolis", 8F);
-            this.usernameTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.usernameTextBox.HoverState.Parent = this.usernameTextBox;
-            this.usernameTextBox.Location = new System.Drawing.Point(35, 296);
-            this.usernameTextBox.Margin = new System.Windows.Forms.Padding(8, 5, 8, 5);
-            this.usernameTextBox.Name = "usernameTextBox";
-            this.usernameTextBox.PasswordChar = '\0';
-            this.usernameTextBox.PlaceholderText = "";
-            this.usernameTextBox.SelectedText = "";
-            this.usernameTextBox.ShadowDecoration.Parent = this.usernameTextBox;
-            this.usernameTextBox.Size = new System.Drawing.Size(264, 39);
-            this.usernameTextBox.TabIndex = 3;
-            // 
-            // passwordTextBox
-            // 
-            this.passwordTextBox.BorderRadius = 12;
-            this.passwordTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.passwordTextBox.DefaultText = "";
-            this.passwordTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.passwordTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.passwordTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.passwordTextBox.DisabledState.Parent = this.passwordTextBox;
-            this.passwordTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.passwordTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordTextBox.FocusedState.Parent = this.passwordTextBox;
-            this.passwordTextBox.Font = new System.Drawing.Font("Metropolis", 8F);
-            this.passwordTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordTextBox.HoverState.Parent = this.passwordTextBox;
-            this.passwordTextBox.Location = new System.Drawing.Point(35, 383);
-            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(8, 5, 8, 5);
-            this.passwordTextBox.Name = "passwordTextBox";
-            this.passwordTextBox.PasswordChar = '\0';
-            this.passwordTextBox.PlaceholderText = "";
-            this.passwordTextBox.SelectedText = "";
-            this.passwordTextBox.ShadowDecoration.Parent = this.passwordTextBox;
-            this.passwordTextBox.Size = new System.Drawing.Size(264, 39);
-            this.passwordTextBox.TabIndex = 3;
-            // 
-            // gunaLabel2
-            // 
-            this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Metropolis", 12F);
-            this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.gunaLabel2.Location = new System.Drawing.Point(55, 123);
-            this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(225, 48);
-            this.gunaLabel2.TabIndex = 4;
-            this.gunaLabel2.Text = "Proceed with your\r\neasy-to-remember usename\r\nand password";
-            this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // gunaLabel5
-            // 
-            this.gunaLabel5.AutoSize = true;
-            this.gunaLabel5.Font = new System.Drawing.Font("Metropolis", 12F);
-            this.gunaLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.gunaLabel5.Location = new System.Drawing.Point(125, 264);
-            this.gunaLabel5.Name = "gunaLabel5";
-            this.gunaLabel5.Size = new System.Drawing.Size(85, 16);
-            this.gunaLabel5.TabIndex = 4;
-            this.gunaLabel5.Text = "Username";
-            this.gunaLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.gunaLabel7.AutoSize = true;
+            this.gunaLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.gunaLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
+            this.gunaLabel7.Location = new System.Drawing.Point(131, 307);
+            this.gunaLabel7.Name = "gunaLabel7";
+            this.gunaLabel7.Size = new System.Drawing.Size(109, 20);
+            this.gunaLabel7.TabIndex = 4;
+            this.gunaLabel7.Text = "Access Token";
+            this.gunaLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.gunaLabel7.Visible = false;
             // 
             // gunaLabel6
             // 
             this.gunaLabel6.AutoSize = true;
-            this.gunaLabel6.Font = new System.Drawing.Font("Metropolis", 12F);
+            this.gunaLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.gunaLabel6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.gunaLabel6.Location = new System.Drawing.Point(127, 351);
+            this.gunaLabel6.Location = new System.Drawing.Point(146, 351);
             this.gunaLabel6.Name = "gunaLabel6";
-            this.gunaLabel6.Size = new System.Drawing.Size(81, 16);
+            this.gunaLabel6.Size = new System.Drawing.Size(78, 20);
             this.gunaLabel6.TabIndex = 4;
             this.gunaLabel6.Text = "Password";
             this.gunaLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -228,10 +157,10 @@
             this.accessTokenTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.accessTokenTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.accessTokenTextBox.FocusedState.Parent = this.accessTokenTextBox;
-            this.accessTokenTextBox.Font = new System.Drawing.Font("Metropolis", 8F);
+            this.accessTokenTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.accessTokenTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.accessTokenTextBox.HoverState.Parent = this.accessTokenTextBox;
-            this.accessTokenTextBox.Location = new System.Drawing.Point(35, 339);
+            this.accessTokenTextBox.Location = new System.Drawing.Point(53, 339);
             this.accessTokenTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.accessTokenTextBox.Name = "accessTokenTextBox";
             this.accessTokenTextBox.PasswordChar = '\0';
@@ -242,36 +171,107 @@
             this.accessTokenTextBox.TabIndex = 6;
             this.accessTokenTextBox.Visible = false;
             // 
-            // gunaLabel7
+            // gunaLabel5
             // 
-            this.gunaLabel7.AutoSize = true;
-            this.gunaLabel7.Font = new System.Drawing.Font("Metropolis", 12F);
-            this.gunaLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
-            this.gunaLabel7.Location = new System.Drawing.Point(109, 307);
-            this.gunaLabel7.Name = "gunaLabel7";
-            this.gunaLabel7.Size = new System.Drawing.Size(116, 16);
-            this.gunaLabel7.TabIndex = 4;
-            this.gunaLabel7.Text = "Access Token";
-            this.gunaLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.gunaLabel7.Visible = false;
+            this.gunaLabel5.AutoSize = true;
+            this.gunaLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.gunaLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
+            this.gunaLabel5.Location = new System.Drawing.Point(144, 264);
+            this.gunaLabel5.Name = "gunaLabel5";
+            this.gunaLabel5.Size = new System.Drawing.Size(83, 20);
+            this.gunaLabel5.TabIndex = 4;
+            this.gunaLabel5.Text = "Username";
+            this.gunaLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // confirmButton
+            // gunaLabel2
             // 
-            this.confirmButton.BorderRadius = 12;
-            this.confirmButton.CheckedState.Parent = this.confirmButton;
-            this.confirmButton.CustomImages.Parent = this.confirmButton;
-            this.confirmButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(186)))), ((int)(((byte)(133)))));
-            this.confirmButton.Font = new System.Drawing.Font("Metropolis", 12F, System.Drawing.FontStyle.Bold);
-            this.confirmButton.ForeColor = System.Drawing.Color.White;
-            this.confirmButton.HoverState.Parent = this.confirmButton;
-            this.confirmButton.Location = new System.Drawing.Point(35, 500);
-            this.confirmButton.Name = "confirmButton";
-            this.confirmButton.ShadowDecoration.Parent = this.confirmButton;
-            this.confirmButton.Size = new System.Drawing.Size(264, 45);
-            this.confirmButton.TabIndex = 6;
-            this.confirmButton.Text = "Confirm";
-            this.confirmButton.Visible = false;
-            this.confirmButton.Click += new System.EventHandler(this.confirmButton_Click);
+            this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(75)))), ((int)(((byte)(75)))));
+            this.gunaLabel2.Location = new System.Drawing.Point(81, 123);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(208, 60);
+            this.gunaLabel2.TabIndex = 4;
+            this.gunaLabel2.Text = "Proceed with your\r\neasy-to-remember usename\r\nand password";
+            this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // passwordTextBox
+            // 
+            this.passwordTextBox.BorderRadius = 12;
+            this.passwordTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.passwordTextBox.DefaultText = "";
+            this.passwordTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.passwordTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.passwordTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.passwordTextBox.DisabledState.Parent = this.passwordTextBox;
+            this.passwordTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.passwordTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.passwordTextBox.FocusedState.Parent = this.passwordTextBox;
+            this.passwordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.passwordTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.passwordTextBox.HoverState.Parent = this.passwordTextBox;
+            this.passwordTextBox.Location = new System.Drawing.Point(53, 383);
+            this.passwordTextBox.Margin = new System.Windows.Forms.Padding(8, 5, 8, 5);
+            this.passwordTextBox.Name = "passwordTextBox";
+            this.passwordTextBox.PasswordChar = '\0';
+            this.passwordTextBox.PlaceholderText = "";
+            this.passwordTextBox.SelectedText = "";
+            this.passwordTextBox.ShadowDecoration.Parent = this.passwordTextBox;
+            this.passwordTextBox.Size = new System.Drawing.Size(264, 39);
+            this.passwordTextBox.TabIndex = 3;
+            // 
+            // usernameTextBox
+            // 
+            this.usernameTextBox.BorderRadius = 12;
+            this.usernameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.usernameTextBox.DefaultText = "";
+            this.usernameTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.usernameTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.usernameTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.usernameTextBox.DisabledState.Parent = this.usernameTextBox;
+            this.usernameTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.usernameTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.usernameTextBox.FocusedState.Parent = this.usernameTextBox;
+            this.usernameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            this.usernameTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.usernameTextBox.HoverState.Parent = this.usernameTextBox;
+            this.usernameTextBox.Location = new System.Drawing.Point(53, 296);
+            this.usernameTextBox.Margin = new System.Windows.Forms.Padding(8, 5, 8, 5);
+            this.usernameTextBox.Name = "usernameTextBox";
+            this.usernameTextBox.PasswordChar = '\0';
+            this.usernameTextBox.PlaceholderText = "";
+            this.usernameTextBox.SelectedText = "";
+            this.usernameTextBox.ShadowDecoration.Parent = this.usernameTextBox;
+            this.usernameTextBox.Size = new System.Drawing.Size(264, 39);
+            this.usernameTextBox.TabIndex = 3;
+            // 
+            // signInButton
+            // 
+            this.signInButton.BorderRadius = 12;
+            this.signInButton.CheckedState.Parent = this.signInButton;
+            this.signInButton.CustomImages.Parent = this.signInButton;
+            this.signInButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(186)))), ((int)(((byte)(133)))));
+            this.signInButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signInButton.ForeColor = System.Drawing.Color.White;
+            this.signInButton.HoverState.Parent = this.signInButton;
+            this.signInButton.Location = new System.Drawing.Point(53, 500);
+            this.signInButton.Name = "signInButton";
+            this.signInButton.ShadowDecoration.Parent = this.signInButton;
+            this.signInButton.Size = new System.Drawing.Size(264, 45);
+            this.signInButton.TabIndex = 2;
+            this.signInButton.Text = "Go";
+            this.signInButton.Click += new System.EventHandler(this.signInButton_Click);
+            // 
+            // gunaLabel1
+            // 
+            this.gunaLabel1.AutoSize = true;
+            this.gunaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 38F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel1.Location = new System.Drawing.Point(91, 36);
+            this.gunaLabel1.Name = "gunaLabel1";
+            this.gunaLabel1.Size = new System.Drawing.Size(189, 59);
+            this.gunaLabel1.TabIndex = 1;
+            this.gunaLabel1.Text = "Sign In";
+            this.gunaLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form2
             // 

@@ -1,0 +1,8 @@
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Release\HMS.csproj.AssemblyReference.cache
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Release\HMS.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Release\HMS.Form1.resources
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Release\HMS.Form2.resources
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Release\HMS.Form3.resources
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Release\HMS.Properties.Resources.resources
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Release\HMS.csproj.GenerateResource.cache
+C:\Users\Ultron\Source\Repos\handler_remake\obj\Release\HMS.csproj.CoreCompileInputs.cache
